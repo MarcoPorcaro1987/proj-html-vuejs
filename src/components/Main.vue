@@ -7,7 +7,6 @@
 </template>
 
 <script>
-
 import Hero from "./Hero.vue";
 import Mission from "./Mission.vue";
 import Courses from "./Courses.vue";

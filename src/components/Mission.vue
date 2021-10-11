@@ -83,14 +83,14 @@ export default {
       }
     }
   }
-  .btn-common{
+  .btn-common {
     margin: 0 1.25rem;
   }
-  .bg-white{
+  .bg-white {
     background-color: white;
     color: $specialColor;
     border: 1px solid $secondaryColor;
-    padding: .9375rem 3rem;
+    padding: 0.9375rem 3rem;
   }
 }
 </style>
