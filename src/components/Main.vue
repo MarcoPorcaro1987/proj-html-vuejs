@@ -2,12 +2,15 @@
   <main>
     <Hero />
     <Mission />
+    <Courses />
   </main>
 </template>
 
 <script>
+
 import Hero from "./Hero.vue";
 import Mission from "./Mission.vue";
+import Courses from "./Courses.vue";
 
 export default {
   name: "Main",
@@ -15,6 +18,7 @@ export default {
   components: {
     Hero,
     Mission,
+    Courses,
   },
 };
 </script>
