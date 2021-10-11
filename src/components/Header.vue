@@ -68,12 +68,13 @@ header {
       color: $mainColor;
     }
   }
-  .buttons-cont, .lang-cont {
+  .buttons-cont,
+  .lang-cont {
     gap: 0.625rem;
-    input{
-      padding: 1.875rem .625rem;
-      border:none;
-      border-left: .0625rem solid $secondaryColor;
+    input {
+      padding: 1.875rem 0.625rem;
+      border: none;
+      border-left: 0.0625rem solid $secondaryColor;
       outline: none;
     }
   }
