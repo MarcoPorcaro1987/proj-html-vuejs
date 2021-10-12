@@ -134,6 +134,7 @@ h2 {
         width: 100%;
       }
       .service-text-cont {
+        height: 11.25rem;
         background-color: white;
         line-height: 2;
         padding: 0.625rem 1.25rem;

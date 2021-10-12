@@ -3,6 +3,7 @@
     <Hero />
     <Mission />
     <Courses />
+    <FAQ />
   </main>
 </template>
 
@@ -10,6 +11,7 @@
 import Hero from "./Hero.vue";
 import Mission from "./Mission.vue";
 import Courses from "./Courses.vue";
+import FAQ from "./FAQ.vue";
 
 export default {
   name: "Main",
@@ -18,6 +20,7 @@ export default {
     Hero,
     Mission,
     Courses,
+    FAQ,
   },
 };
 </script>
