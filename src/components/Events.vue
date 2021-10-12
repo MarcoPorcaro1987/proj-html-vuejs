@@ -17,8 +17,12 @@
         </div>
       </div>
     </div>
-    <p class="p-text">Excited about our event? <span class="special-color">View all events <i class="fas fa-long-arrow-alt-right"></i
-          ></span></p>
+    <p class="p-text">
+      Excited about our event?
+      <span class="special-color"
+        >View all events <i class="fas fa-long-arrow-alt-right"></i
+      ></span>
+    </p>
   </section>
 </template>
 
@@ -112,12 +116,12 @@ export default {
       }
     }
   }
-  .p-text{
-      margin-top: 1.875rem;
-      span{
-          font-weight: bold;
-          border-bottom: .0625rem solid $secondaryColor;
-      }
+  .p-text {
+    margin-top: 1.875rem;
+    span {
+      font-weight: bold;
+      border-bottom: 0.0625rem solid $secondaryColor;
+    }
   }
 }
 </style>

@@ -48,6 +48,7 @@ export default {
 .hero {
   background-color: $secondaryColor;
   position: relative;
+  margin-top: 4.75rem;
   .btn-cont {
     padding: 0.625rem;
     background-color: white;

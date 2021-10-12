@@ -36,7 +36,7 @@
       <h2>Explore How can I help you</h2>
       <div class="plan-cont">
         <div class="plan-card" v-for="(plan, index) in plans" :key="index">
-          <img :src="require('../assets/img/' + plan.img)" alt="plan.title" />
+          <img :src="require('../assets/img/' + plan.img)" :alt="plan.title" />
           <div class="plan-text">
             <p class="special-color">{{ plan.price }}</p>
             <p class="plan-title">{{ plan.title }}</p>
