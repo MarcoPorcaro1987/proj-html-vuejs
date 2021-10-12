@@ -48,7 +48,7 @@ export default {
         {
           question: "How can we help?",
           answer:
-            "How many courses you've been on, using however many techniques and methods. Unless you've come to realize the value of mindset, then you've yet to undestand how success comes. With everypnw else's mindset involved impacting too. Hence why business coaching is so crucial for success.",
+            "How many courses you've been on, using however many techniques and methods. Unless you've come to realize the value of mindset, then you've yet to undestand how success comes. With everyone else's mindset involved impacting too. Hence why business coaching is so crucial for success.",
         },
         {
           question: "Why would I need a business COACH?",
@@ -121,6 +121,9 @@ export default {
           h4{
               margin: .625rem 0;
               color: white;
+          }
+          p{
+              margin-left: 1.625rem;
           }
       }
     }

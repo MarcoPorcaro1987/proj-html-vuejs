@@ -120,7 +120,7 @@ h2 {
 
 //Services Section
 .services {
-  background-color: $secondaryColor;
+  background-color: $bgColor;
   text-align: center;
   padding: 2.5rem 0;
   .services-cont {
@@ -138,7 +138,7 @@ h2 {
         background-color: white;
         line-height: 2;
         padding: 0.625rem 1.25rem;
-        border-bottom: 0.0625rem solid $secondaryColor;
+        border-bottom: 0.0625rem solid $bgColor;
       }
       .discover-text {
         justify-content: center;

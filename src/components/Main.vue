@@ -4,6 +4,7 @@
     <Mission />
     <Courses />
     <FAQ />
+    <Events />
   </main>
 </template>
 
@@ -12,6 +13,7 @@ import Hero from "./Hero.vue";
 import Mission from "./Mission.vue";
 import Courses from "./Courses.vue";
 import FAQ from "./FAQ.vue";
+import Events from "./Events.vue"
 
 export default {
   name: "Main",
@@ -21,6 +23,7 @@ export default {
     Mission,
     Courses,
     FAQ,
+    Events,
   },
 };
 </script>
