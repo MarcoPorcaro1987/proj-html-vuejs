@@ -55,8 +55,12 @@ export default {
     input {
       background-color: $bgColor;
       padding: 0.9375rem 3rem;
+      border: none;
       border-top-left-radius: 0.3125rem;
       border-bottom-left-radius: 0.3125rem;
+      &:focus-visible {
+        outline: none;
+      }
     }
     .btn-common {
       border-top-left-radius: 0;
