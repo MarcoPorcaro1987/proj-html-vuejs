@@ -6,6 +6,7 @@
     <FAQ />
     <Events />
     <Feedback />
+    <Newsletter />
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import Courses from "./Courses.vue";
 import FAQ from "./FAQ.vue";
 import Events from "./Events.vue";
 import Feedback from "./Feedback.vue";
+import Newsletter from "./Newsletter.vue";
 
 export default {
   name: "Main",
@@ -27,6 +29,7 @@ export default {
     FAQ,
     Events,
     Feedback,
+    Newsletter,
   },
 };
 </script>
