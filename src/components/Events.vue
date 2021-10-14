@@ -92,6 +92,13 @@ export default {
       background-color: $bgColor;
       display: flex;
       justify-content: space-between;
+      &:hover .btn-common {
+        background-color: $mainColor;
+      }
+      &:hover {
+        background-color: white;
+        border-left: 0.3125rem solid $specialColor;
+      }
       .event {
         text-align: left;
         width: 69%;

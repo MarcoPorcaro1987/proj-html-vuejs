@@ -91,6 +91,10 @@ export default {
     color: $specialColor;
     border: 1px solid $secondaryColor;
     padding: 0.9375rem 3rem;
+    &:hover {
+      background-color: $mainColor;
+      color: white;
+    }
   }
 }
 </style>

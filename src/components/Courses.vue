@@ -130,6 +130,13 @@ h2 {
       width: calc(100% / 3 - 1.25rem);
       display: flex;
       flex-direction: column;
+      &:hover .discover-text {
+        background-color: $specialColor;
+        .special-color,
+        .fa-long-arrow-alt-right {
+          color: white;
+        }
+      }
       img {
         width: 100%;
       }

@@ -32,7 +32,7 @@
         <div class="questions" v-for="(question, index) in faq" :key="index">
           <i class="fas fa-chevron-circle-down"></i>
           <h4>{{ question.question }}</h4>
-          <p>{{question.answer}}</p>
+          <p>{{ question.answer }}</p>
         </div>
       </div>
     </div>
@@ -62,7 +62,6 @@ export default {
     };
   },
 };
-
 </script>
 
 <style lang="scss" scoped>
@@ -109,22 +108,22 @@ export default {
         font-size: 1.875rem;
       }
       .questions {
-          display: flex;
-          flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        border-bottom: 0.0625rem solid $secondaryColor;
+        padding: 0.9375rem 0;
+        align-items: center;
+        .fa-chevron-circle-down {
+          margin-right: 0.625rem;
+        }
+        h4 {
+          margin: 0.625rem 0;
           color: white;
-          border-bottom: 0.0625rem solid $secondaryColor;
-          padding: .9375rem 0;
-          align-items: center;
-          .fa-chevron-circle-down{
-              margin-right: .625rem;
-          }
-          h4{
-              margin: .625rem 0;
-              color: white;
-          }
-          p{
-              margin-left: 1.625rem;
-          }
+        }
+        p {
+          margin-left: 1.625rem;
+        }
       }
     }
   }
